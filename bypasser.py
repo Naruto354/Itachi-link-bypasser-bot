@@ -20,7 +20,7 @@ import os
 ##########################################################
 # ENVs
 
-GDTot_Crypt = os.environ.get("CRYPT","b0lDek5LSCt6ZjVRR2EwZnY4T1EvVndqeDRtbCtTWmMwcGNuKy8wYWpDaz0%3D")
+GDTot_Crypt = os.environ.get("CRYPT", "bGtsdWJ3bzZLTWFTVlZZT3BxRWxXcEpna3BFZkZjV2NXaUMwY0VwM1E2RT0%3D")
 Laravel_Session = os.environ.get("Laravel_Session","")
 XSRF_TOKEN = os.environ.get("XSRF_TOKEN","")
 DCRYPT = os.environ.get("DRIVEFIRE_CRYPT","")
@@ -1359,8 +1359,8 @@ def unified(url):
 
     try:
 
-        Email = "OPTIONAL"
-        Password = "OPTIONAL"
+        Email = "pintusarkar202321@gmail.com"
+        Password = "12345pintu*#"
 
         account = {"email": Email, "passwd": Password}
         client = cloudscraper.create_scraper(allow_brotli=False)
