@@ -12,11 +12,10 @@ from bypasser import ddllist
 
 
 # bot
-bot_token = os.environ.get("TOKEN", "5900605925:AAFY2Yw-pATXSAGzaLCEXsXA6hwso_ZuPw0")
-api_hash = os.environ.get("HASH", "3d113cba2bc4351d4f5cf189b5961759") 
-api_id = os.environ.get("ID", "10993668")
-app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  
-
+bot_token =Config.TOKEN,
+api_hash =Config.HASH,
+api_id =Config.ID,
+app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token) 
 
 # loop thread
 def loopthread(message):
