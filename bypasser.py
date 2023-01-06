@@ -1690,7 +1690,7 @@ def shortners(url):
         return try2link_bypass(url)
 
     # urlsopen
-    elif "https://urlsopen.com/" in url:
+    elif "https://urlsopen.net/" in url:
         print("entered urlsopen:",url)
         return urlsopen(url)
 
